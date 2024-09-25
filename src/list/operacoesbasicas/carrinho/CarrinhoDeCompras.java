@@ -37,15 +37,14 @@ public class CarrinhoDeCompras {
 		
 		if(carrinho.isEmpty()) {
 			System.out.println("Carrinho vazio!");
-			return 0;
 		}
 		
 		else {
 			for(Item i : carrinho) {
 				total += i.getPreco(); 
 			}
-			return total;
 		}
+		return total;
 	}
 	
 	public void exibirItens() {
