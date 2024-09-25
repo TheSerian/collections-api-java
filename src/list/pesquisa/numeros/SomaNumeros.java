@@ -13,6 +13,7 @@ public class SomaNumeros {
 		this.numeros = new ArrayList<>(); 
 	}
 	
+	//métodos
 	public void adicionarNumero(int numero) {
 		numeros.add(numero);
 	}
